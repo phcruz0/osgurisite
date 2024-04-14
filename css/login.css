@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/aullya-gedabrush');
+
+body{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(71,0,0,1) 35%, rgba(255,0,0,1) 100%);
+    font-family: "Oxanium", sans-serif;
+    overflow: hidden;
+}
+
+.area-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+}
+
+.login form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.login input{
+    margin-top: 10px;
+    background-color: #252A34;
+    padding-left: 10px;
+    color: #CBD0F7;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+}
+.login img{
+    width: 65px;
+    height: auto;
+}
+
+input::placeholder{
+    color: #CBD0F7;
+    font-size: 14px;
+}
+
+form [type="submit"]{
+    display: block;
+    background-color: red;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Aullya Gedabrush', sans-serif;
+}

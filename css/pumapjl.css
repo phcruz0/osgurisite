@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+body{
+    background-color: #f9b316;
+    background-image: url(../imgs/febre90sMDVB.jpg);
+    background-size: 400px;
+    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+p{margin: 40px;
+    font-family: "Smooch Sans", sans-serif; 
+    font-size: 20px;
+    font-weight: bold 
+}
+.SonoIMG{ 
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border-style: initial;
+    float:right;
+    position: absolute;
+    top: 207px;
+    right: 140px
+}
+.PumaIMG{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border-style: initial;
+    margin-left: 87px;
+}
+.SonoTWS{
+    float:right;
+    margin-top: 120px;
+    position: absolute;
+    top: 310px;
+    right: 190px;
+    font-family: "Jim Nightshade", cursive;
+}
+.Pumapjl{
+    float:left;
+    margin-top: 120px;
+    position: absolute;
+    top: 310px;
+    left:145px;
+    font-family: "Jim Nightshade", cursive;
+}
+.SonoPika{
+    position: absolute;
+    font-family: "Smooch Sans", sans-serif; 
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    margin-top: 400px;
+    position: absolute;
+    top: 110px;
+    right: 40px;
+}
+.PumaPika{
+    position: absolute;
+    font-family: "Smooch Sans", sans-serif; 
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    margin-top: 400px;
+    position: absolute;
+    top: 110px;
+    left: 20px;
+}
+    .div1{
+        margin-top: 200px;
+    }
+    .imagemdecanto1{
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 350px;
+        height: 350px
+    }
+    .imagemdecanto2{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 350px;
+        height: 350px
+    }
+    .botao{
+        background-position-y: -7px;
+        background-position-x: -8px ;
+        background-size: 170px;
+        background-repeat: no-repeat;
+        background-image: url(../imgs/febre_logo_transp-1.png);
+        left: 40px;
+        position: absolute;
+        bottom: 0px;
+        border: solid #f9b316;
+        border-radius: 100px;
+        text-decoration: none;
+        padding: 80px;
+
+    }

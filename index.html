@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <section class="area-login">
+      <div class="login">
+        <div>
+          <img src="imgs/damassaclan.png" alt="" />
+        </div>
+
+        <form method="post">
+          <input
+            type="text"
+            name="Nome"
+            placeholder="Nome de Usuario"
+            id="login"
+          />
+          <input
+            type="password"
+            name="Senha"
+            placeholder="Sua Senha"
+            id="senha"
+          />
+          <input type="submit" value="entrar" onclick="logar(); return false" />
+        </form>
+
+        <script>
+          function logar() {
+            var login = document.getElementById("login").value;
+            var senha = document.getElementById("senha").value;
+            if (login == "admin" && senha == "admin") {
+              location.href = "home.html";
+            }
+            if (login == "will" && senha == "win") {
+              location.href = "home.html";
+            }
+            if (login == "carlos" && senha == "lich") {
+              location.href = "home.html";
+            }
+          }
+        </script>
+      </div>
+    </section>
+  </body>
+</html>
