@@ -226,3 +226,38 @@ section.imagens .flex{
 .img-img:hover{
   background-position: 100% 100%;
 }
+
+/* Estilo das Musicas */
+section.musicas{
+  padding: 40px 4%;
+}
+
+section.musicas .flex{
+  margin: 60px;
+}
+
+.musicas .img-musicas{
+  color: #FFF;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 45px;
+  transition: .2s;
+}
+
+.musicas .img-musicas img{
+  width: 150px;
+  height: 150px;
+}
+
+.musicas .img-musicas:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #600000;
+}
+
+.musicas .img-musicas .txt-musicas{
+  font-size: 15px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
