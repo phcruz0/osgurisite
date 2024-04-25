@@ -57,7 +57,7 @@ body{
     bottom: -40px;
     height: 40px;
     width: 40px;
-    background-color: #600000;
+    background-color: #FF0000;
 }
 .overlay::after{
     border-radius: 0 25px 0 0;
@@ -108,7 +108,7 @@ body{
     transition: color 0.3s ease;
 }
 .swiper-navBtn:hover{
-    color: #FF0000;
+    color: #600000;
 }
 .swiper-navBtn::before,
 .swiper-navBtn::after{
